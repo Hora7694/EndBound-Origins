@@ -1,0 +1,1 @@
+execute at @p as @p if dimension minecraft:overworld if score @s ebo.DragonIsKill matches 0 run function ebo:start

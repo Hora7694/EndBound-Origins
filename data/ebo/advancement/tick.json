@@ -1,0 +1,11 @@
+{
+    "parent": "hora:root",
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "ebo:load_scores"
+    }
+}

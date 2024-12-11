@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "position": {
+                "x": {
+                  "min": -2500,
+                  "max": -500
+                },
+                "z": {
+                  "min": -2500,
+                  "max": -500
+                }
+              },
+              "dimension": "minecraft:the_end"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ebo:in_end_island"
+    }
+  }
